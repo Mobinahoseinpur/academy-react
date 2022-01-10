@@ -1,0 +1,41 @@
+@font-face {
+    font-family: irr;
+    src: url("../../../obj/font/IRANSANS\(FANUM\).TTF");
+  }
+  @font-face {
+    font-family: irb;
+    src: url("../../../obj/font/IRANSANS\(FANUM\)_BOLD.TTF");
+  }
+
+.help_academy {
+    width: 82%;
+    Max-height:100%;
+    display: block;
+    margin: 0 auto;
+  }
+  .categories_academy_title {
+    /* padding: 65px 0 20px; */
+    font-family: irb;
+    color: #393939;
+    font-size: 23px;
+    text-align: center;
+  }
+  .info {
+    color: #6666ff;
+    height: 350px;
+    margin-right: 20%;
+  }
+  .txtcolor{
+    padding-right: 20px;
+    width: 300px;
+    height: 50px;
+    border-bottom: 1px solid #6666ffe5;
+    border-radius: 20px;
+    background: #fafbfc;
+    margin: 10px 0;
+    color: #6666ff;
+  }
+  /* .img_main{
+    width: 110%;
+    margin-right: -30%;
+  } */

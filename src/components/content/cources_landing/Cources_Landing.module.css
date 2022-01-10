@@ -1,0 +1,129 @@
+@font-face {
+    font-family: irr;
+    src: url("../../../obj/font/IRANSANS\(FANUM\).TTF");
+  }
+  @font-face {
+    font-family: irb;
+    src: url("../../../obj/font/IRANSANS\(FANUM\)_BOLD.TTF");
+  }
+  a {
+    color: #393939;
+  }
+  a:hover {
+    color: #393939;
+  }
+.courses_academy {
+  max-height: 100%;
+  margin: 0 auto;
+}
+.cources_academy_title {
+    padding: 65px 0 20px;
+    font-family: irb;
+    color: #393939;
+    font-size: 23px;
+    text-align: center;
+  }
+.courses {
+  width: 254px;
+  height: 410px;
+  border-radius: 10px;
+  background: #ffff;
+  box-shadow: 0px 4px 150px rgba(0, 0, 0, 6%);
+  float: right;
+}
+.courses:hover{
+    cursor: pointer;
+}
+.img_courcses_size {
+  width: 90%;
+  height: 140px;
+  margin: 17px auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.img_courcses {
+  height: 100%;
+  width: 100%;
+}
+.price_categories_course {
+  height: 60px;
+  margin: 0 22px 0;
+}
+.categories_course {
+
+
+  float: right;
+  width: 50%;
+  height: 20px;
+  background-color: #6666ff;
+  border-radius: 29px;
+  font-family: irr;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+}
+.pice_course {
+  font-family: irr;
+  font-size: 12px;
+  color: #f85d5e;
+  float: left;
+  margin: 5px 0;
+}
+
+.txt_content_courses_academy {
+  font-family: irr;
+  font-size: 16px;
+  margin: -15px 15px 0 15px;
+}
+.preview_num_video {
+  margin: 20px 20px 0;
+  height: 40px;
+  font-family: irr;
+  border-bottom: 1px solid #6666ff;
+}
+.preview_num_video > .preview_num_video_img {
+  width: 6%;
+  float: right;
+  margin-top: 5px;
+}
+.preview_num_video > .preview_num_video_txt {
+  font-size: 12px;
+  padding: 3px 16px;
+}
+.courses_academy_star_nextpage {
+  height: 35px;
+  margin: 25px 20px 0;
+
+}
+.courses_academy_star {
+  background: url("../../../obj/icon/star.svg") repeat-x;
+  background-size: 15px 15px;
+  width: 75px;
+  height: 25px;
+  display: block;
+  margin: 10px 5px 0;
+  float: right;
+}
+.courses_academy_nextbutton {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  background: #6666ff;
+  float: left;
+}
+.courses_academy_seemore {
+  float: right;
+  width: 170px;
+  height: 40px;
+  background: #6666ff;
+  border-radius: 20px;
+  margin: 82px auto;
+  font-family: irr;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  padding-top: 11px;
+}
+.courses_academy_seemore:hover{
+    cursor: pointer;
+}

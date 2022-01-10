@@ -1,0 +1,76 @@
+@font-face {
+  font-family: irr;
+  src: url("../obj/font/IRANSANS\(FANUM\).TTF");
+}
+@font-face {
+  font-family: irb;
+  src: url("../obj/font/IRANSANS\(FANUM\)_BOLD.TTF");
+}
+.part_right {
+  height: 600px;
+}
+.part_left {
+  height: 600px;
+}
+.img_main {
+  margin: 34px 1%;
+  width: 100%;
+}
+.txttitle {
+  font-size: 24px;
+  font-family: irb;
+ 
+  margin: 60px 0 50px 0;
+}
+.txt_inp {
+  font-family: irb;
+  font-size: 20px;
+}
+.txt_forget_pass {
+  font-family: irb;
+  font-size: 12px;
+  color: #5d626c;
+  margin-right: 52%;
+}
+.forgetpass {
+  margin-right: 60%;
+}
+.txt_forget_pass:hover {
+  color: #6666ff;
+}
+.inpinfo {
+  background: #fafbfc;
+  border: 1px solid #fafbfc;
+  border-radius: 29px;
+  width: 83%;
+  margin: 10px 0;
+}
+.inp_rememberme {
+  float: right;
+  width: 20px;
+  height: 40px;
+  margin: 5px 0;
+}
+.rememberme {
+  margin: 15px 5px 20px;
+}
+.btn_ {
+  border: 1px solid #6666ff;
+  border-radius: 8px;
+  float: right;
+  height: 35px;
+  width: 70px;
+}
+
+.btn_log {
+  background: #6666ff;
+  color: #ffff;
+}        
+.btn_:hover {
+  background: #6666ff;
+  color: #ffff;
+}
+.width_reg_btn{
+  width: 185px;
+  color:#6666ff ;
+}

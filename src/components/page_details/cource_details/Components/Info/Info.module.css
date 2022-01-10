@@ -1,0 +1,94 @@
+@font-face {
+    font-family: iranSans-B;
+    src: url(../../Assets/Fonts/IRANSANS\(FANUM\)_BOLD.TTF);
+}
+
+@font-face {
+    font-family: iranSans;
+    src: url(../../Assets/Fonts/IRANSANS\(FANUM\).TTF);
+}
+
+.wrapped{
+    display :flex;
+    align-items: center;
+    flex-direction: column;
+    /* width: 350px; */
+    height: auto;
+    overflow :hidden;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0px 4px 150px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    user-select: none;
+    margin-bottom: 25px;
+
+}
+
+.btn {
+    text-align:center;
+	line-height:50px;
+	border-radius:29px;
+	background:#6666FF;
+	color:#fff;
+	font-family:iranSans;
+	font-size:14px;
+	height:50px;
+	width:170px;
+	margin-top:0;
+    margin-bottom: 20px;
+    border: none;
+
+
+}
+
+.btn:hover {
+    cursor: pointer;
+
+}
+
+.title {
+    font-family: iranSans;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+    color: #2E3136;
+    padding: 0;
+    margin-bottom:15px;
+
+    }
+
+.detail{
+
+    font-family:iranSans-B;
+    font-size: 18px;
+    /* padding: 1rem; */
+
+}
+
+.price{
+    color:#28C782;
+}
+
+.list {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-right:0;
+	line-height:44px;
+	font-family:iranSans;
+	font-size:18px;
+	list-style:none;
+	color:#2E3136;
+	margin:0;
+    width:83%;
+}
+
+.list > li {
+
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: 18px;
+
+}

@@ -1,0 +1,30 @@
+html,body{
+
+    font-family: iransans ;
+    direction:rtl;
+}
+.blue{
+    background:rgb(18, 100, 224);
+}
+.teal{
+    background:rgb(16, 192, 163);
+}
+.gray{
+    background:gray;
+}
+.orange{
+    background:rgb(255, 177, 32);
+}
+.green{
+    background:rgb(43, 202, 64);
+}
+
+.grid-sys .row div{
+	height:200px;	
+}
+
+.cs-slider{
+    margin-bottom:20px;
+    overflow:hidden;
+    border-radius:5px;
+}

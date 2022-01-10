@@ -1,0 +1,55 @@
+@font-face {
+    font-family: irr;
+    src: url("../../../obj/font/IRANSANS\(FANUM\).TTF");
+  }
+  @font-face {
+    font-family: irb;
+    src: url("../../../obj/font/IRANSANS\(FANUM\)_BOLD.TTF");
+  }
+  .teacher_academy {
+    /* height: 13%; */
+    Max-height:100%;
+    width: 82%;
+    margin: 0 auto 10px;
+  }
+  .categories_academy_title {
+    /* padding: 65px 0 20px; */
+    font-family: irb;
+    color: #393939;
+    font-size: 23px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .teacher {
+    /* width: 30%; */
+    width: 235px;
+    /* height: 200px; */
+    max-height:100% ;
+    border-radius: 10px;
+    background: #ffff;
+    box-shadow: 0px 4px 150px rgba(0, 0, 0, 6%);
+    float: right;
+    font-family: irr;
+  }
+  .img_teacher_size {
+    width: 40%;
+    height: 90px;
+    margin: -40px auto 17px;
+    border-radius: 100%;
+    overflow: hidden;
+  }
+  .img_courcses {
+    height: 100%;
+    width: 100%;
+  }
+  .txt_content_jornal_academy {
+    color: #5c5c5c;
+    font-size: 12px;
+    margin: 10px;
+    text-align: center;
+  }
+  .txt_title_jornal_academy {
+    font-size: 14px;
+    text-align: center;
+    color: #292929;
+  }

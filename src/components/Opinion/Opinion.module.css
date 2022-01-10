@@ -1,0 +1,24 @@
+.wrapper{
+    margin-top:15%;
+	height:auto;
+	overflow:hidden;
+	background:none;
+	/* border:1px solid #ccc; */
+	box-shadow:none;
+}
+
+.title{
+    font-family:irr;
+	font-size:26px;
+	margin:0 0 40px 0;
+	color:#2E3136;
+    text-align:right;
+}
+
+.more{
+    text-decoration:none;
+	font-size:18px;
+	font-family:irr;
+	color:#6666ff;
+	float:left;
+}

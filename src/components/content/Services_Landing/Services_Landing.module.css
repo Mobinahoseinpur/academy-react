@@ -1,0 +1,56 @@
+@font-face {
+  font-family: irr;
+  src: url("../../../obj/font/IRANSANS\(FANUM\).TTF");
+}
+@font-face {
+  font-family: irb;
+  src: url("../../../obj/font/IRANSANS\(FANUM\)_BOLD.TTF");
+}
+.services_academy {
+  height: 400px;
+  width: 800px;
+  margin: 0 auto;
+  padding-top: 15px;
+  margin-bottom: 30px;
+}
+.ser_title {
+  font-family: irb;
+  font-size: 23px;
+  text-align: center;
+  color: #393939;
+}
+.ser_title_but {
+  font-family: irr;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 15px;
+  color: #393939;
+}
+.ser_content {
+  float: right;
+  height: 300px;
+  color: #393939;
+}
+
+.imgser {
+  width: 85px;
+  margin: 52px 52px 30px;
+}
+.ser_content_title {
+  font-family: irr;
+  font-size: 20px;
+  color: #393939;
+  text-align: center;
+  margin: 0 auto;
+}
+.ser_content_title_see {
+  margin-top:  -15px  ;
+}
+.ser_content_content {
+  width: 120px;
+  font-family: irr;
+  color: #4a4a4a;
+  font-size: 18px;
+  text-align: center;
+  margin: 30px;
+}

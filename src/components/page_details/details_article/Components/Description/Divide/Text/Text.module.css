@@ -1,0 +1,30 @@
+.holder{
+    width:90%;
+	margin:15px auto;
+	direction:rtl;
+}
+
+.summ{
+    margin-top:20px;
+    font-family:iranSans;
+	font-size:18px;
+	color:#484849;
+    line-height: 30px;
+}
+
+.link{
+    margin-top:80px;
+    font-size: 18px;
+    font-family: iranSans;
+    color:#484849;
+}
+
+.apps{
+
+    margin-top:15px;
+    display:flex;
+	flex-direction:column;
+	text-decoration:none;
+	color:#484849;
+
+}

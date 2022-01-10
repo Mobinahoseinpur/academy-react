@@ -1,0 +1,228 @@
+@font-face {
+  font-family: irr;
+  src: url("../../obj//font/IRANSANS\(FANUM\).TTF");
+}
+@font-face {
+  font-family: irb;
+  src: url("../../obj/font/IRANSANS\(FANUM\)_BOLD.TTF");
+}
+
+  .main_header {
+    background-color: #6666ff;
+    height: 110px;
+    padding-top: 10px;
+  }
+  .s {
+    max-height: 100%;
+  }
+  .logo {
+    background:url("../../obj/logo/logo_whit.png") no-repeat;
+    background-size: 100%;
+    width: 32px;
+    height: 32px;
+    margin: 30px 5% 0 0;
+  }
+  .lgtop {
+    width: 172px;
+    height: 90px;
+    margin: 23.4px 5% 0 0;
+    background: url("../../obj/logo/biglogo.svg") no-repeat;
+    background-size: 90%;
+  }
+  
+  
+  .menu {
+    position: relative;
+    float: right;
+    margin: -95.3px 19% 0 0; 
+    font-family: irr;
+    color: #fff;
+    height: 70px;
+    z-index: 20;
+  }
+  
+  .res_menu {
+    max-height: 100%;
+  }
+  .res_menu:hover{cursor: pointer;}
+  .ch{
+      opacity: 0;
+  }
+  .un_menu {
+    float: right;
+    margin-left: 5%;
+    color: #fff;
+    z-index: 10;
+    color: #6666ff;
+  }
+
+  .left_menu {
+    float: left;
+    margin-top: -81px;
+    height: 30px;
+  }
+  .search {
+  
+    width: 11%;
+    height: 25px;
+    float: left;
+    /* margin: 39px 18% 0 1%; */
+    overflow: hidden;
+    transition: 0.1s;
+  }
+  .search:hover {
+    width: 70%;
+    height: 35px;
+    float: left;
+    /* margin: 39px 18% 0 1%; */
+  
+    overflow: visible;
+  }
+  .btn_search {
+    float: left;
+    margin: 3px 0 0 0;
+    height: 22px;
+    width: 22px;
+    background: url("../../obj/icon/search (1).svg") no-repeat;
+  }
+  .search_box {
+    background-color: white;
+    border-radius: 32px;
+    height: 35px;
+    width: 91%;
+    margin: 0 -11px 0 0;
+    padding-right: 7px;
+    float: left;
+  }
+  .btnlog_reg {
+    background: url("../../obj/icon/user\(1\).svg") no-repeat;
+    width: 24px;
+    height: 24px;
+    float: left;
+    margin: 3px 0 0 0;
+  }
+  .btnlog_reg{cursor: pointer;}
+  .a {
+    color: #fff;
+  }
+  
+  .a:hover{
+    color: rgb(223, 223, 223);
+  }
+   @media screen and (max-width:1220px){
+    .left_menu {
+      margin-top: -81px;
+    }
+   }
+  
+   @media screen and (max-width:991px){
+    .menu {
+        margin: -43.6px 19% 0 0; 
+    }
+    
+    .left_menu {
+    float: left;
+    margin-top: -56px;
+    height: 30px;
+  }
+   }
+
+  
+   @media screen and (max-width:800px){
+ 
+  .menu{
+      background:url("../../obj/icon/bars\(1\).svg") no-repeat;
+      width: 24px;
+      height: 24px;
+      float: right;
+      margin: -30px 10%;
+      /* position: fixed; 
+      top: 2%;
+      left: 50%;  */
+      transform: translate(-50%);
+      border-radius: 10px;
+  
+  }
+  .menu::before{
+      content: '';
+      position: absolute;
+      top: -70%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      width: 20px;
+      height: 20px;
+      /* box-shadow: 0 0 0 5px rgb(94,94,94),0 0 0 10px rgb(59,59,59); */
+      
+  }
+  .menu input{
+      -webkit-appearance: none;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      outline: none;
+      cursor: pointer;
+      
+  }
+  
+  .res_menu{ 
+      max-height: none;
+      max-width: none;
+      width: 300px;
+      height: 300px;
+      /* background-image: linear-gradient(160deg,#0093e9 0%,#80d0c7 100%); */
+      border-radius: 10px;
+      background: white;
+      box-shadow: 0px 4px 150px rgba(0, 0, 0, 6.5%);
+      position: absolute;
+      top: 240%;
+      right:40%;
+      display: none;
+      flex-direction: column;
+      justify-content: center;
+      border-radius: 10px;
+      
+  }
+  .res_menu div{
+      height:45px ;
+      display: flex;
+      align-items: center;
+      margin: 10px 30px 0 35px;
+      padding: 10px 0 10px 15px;
+      color: #6666ff;
+      background: white;
+      box-shadow: 0px 4px 150px rgba(0, 0, 0, 6.5%);
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all .4s;
+  }
+  .un_menu >a {
+    color:#6666ff;
+  }
+  .un_menu >a :hover{
+    color:#6666ff;
+  }
+  .res_menu div p{
+      margin-right: 10px;
+      font-family: 'irr', serif;
+  }
+  .res_menu div:hover{
+      transform: translateX(12px);
+  }
+  input:checked ~ .res_menu{
+      display: flex;
+      animation:  anim 0.5s;
+  }
+  @keyframes anim{
+      0%{
+          clip-path: circle(0% at 50% 50%);
+      }
+      100%{
+          clip-path: circle(100% at 50% 50%);
+      }
+  }
+  .left_menu {
+    margin-top: -30px;
+  }
+  }
+  
+  

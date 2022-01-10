@@ -1,0 +1,17 @@
+.holder {
+    width:90%;
+    height: 400px;
+	margin:15px auto;
+    display:grid;
+}
+
+.like{
+    margin:15px 5px 0 0;
+	display:inline-block;
+	cursor:pointer;
+}
+
+.illus{
+    width: 95%;
+	margin:10px auto;
+}

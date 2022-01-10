@@ -1,0 +1,41 @@
+@font-face {
+    font-family: irr;
+    src: url("../../../obj/font/IRANSANS\(FANUM\).TTF");
+  }
+  @font-face {
+    font-family: irb;
+    src: url("../../../obj/font/IRANSANS\(FANUM\)_BOLD.TTF");
+  }
+
+  
+  .categories_academy {
+    /* height: 400px; */
+    max-height: 100%;
+    margin: 0 auto;
+
+  }
+  .categories_academy_title {
+    /* padding: 65px 0 20px; */
+    font-family: irb;
+    color: #393939;
+    font-size: 23px;
+    text-align: center;
+  }
+  
+  .categories_academy_content {
+    /* width: 19%; */
+    width: 200px;
+    height: 250px;
+    float: right;
+  }
+  .categories_academy_content_img {
+    width: 80%;
+    margin: 5px 12.5% 10px;
+  }
+  .categories_academy_content_title {
+    text-align: center;
+    font-family: irr;
+    font-size: 110%;
+    color: #393939;
+  }
+   

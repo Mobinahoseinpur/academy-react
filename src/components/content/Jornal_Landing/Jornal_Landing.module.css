@@ -1,0 +1,109 @@
+@font-face {
+    font-family: irr;
+    src: url("../../../obj/font/IRANSANS\(FANUM\).TTF");
+  }
+  @font-face {
+    font-family: irb;
+    src: url("../../../obj/font/IRANSANS\(FANUM\)_BOLD.TTF");
+  }
+.jornal_academy {
+    /* height: 470px; */
+    width: 82%;
+    margin: 0 auto;
+    Max-height:100%;
+
+  }
+  .jornal_academy_title {
+    padding: 65px 0 20px;
+    font-family: irb;
+    color: #393939;
+    font-size: 23px;
+    text-align: center;
+
+  }
+  .jornal {
+    width: 235px;
+    height: 290px;
+    border-radius: 10px;
+    background: #ffff;
+    box-shadow: 0px 4px 150px rgba(0, 0, 0, 6%);
+    margin: 50px 13px -25px;
+    float: right;
+    font-family: irr;
+  }
+  .jornal:hover{
+      cursor: pointer;
+  }
+  .img_jornal_size {
+    width: 90%;
+    height: 140px;
+    margin: 17px auto;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .img_jornal {
+    height: 100%;
+    width: 100%;
+  }
+  .txt_title_jornal_academy {
+    font-size: 14px;
+    text-align: center;
+    color: #292929;
+  }
+  .txt_content_jornal_academy {
+    color: #5c5c5c;
+    font-size: 12px;
+    margin: 10px;
+    text-align: center;
+  }
+  .choose_button_jornal {
+    width: 65px;
+    height: 20px;
+    margin: 35px 47%;
+    float: right;
+  }
+  .choose_button_jornal > .choose_button_jornal_on {
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    margin: 5px 2px;
+    background: #6666ff;
+    float: right;
+  }
+  .choose_button_jornal > .choose_button_jornal_off {
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    margin: 5px 2px;
+    background: #b9bfcb;
+    float: right;
+  }
+  .courses_academy_seemore {
+    float: right;
+    width: 170px;
+    height: 40px;
+    background: #6666ff;
+    border-radius: 20px;
+    margin: 82px auto;
+    font-family: irr;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    padding-top: 11px;
+  }
+  .courses_academy_seemore:hover{
+      cursor: pointer;
+  }
+
+  .shp7 {
+    position: relative;
+    height: 110px;
+    top: -1280px;
+    right: -555px;
+  }
+  .shp8 {
+    position: relative;
+    right: 1025px;
+    top: -210px;
+    width: 40px;
+  }

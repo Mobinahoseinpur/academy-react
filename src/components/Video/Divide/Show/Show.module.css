@@ -1,0 +1,31 @@
+.holder{
+    width:90%;
+	margin:auto;
+}
+
+.video{
+    margin:auto ;
+	margin-top:4%;
+	display:flex;
+	justify-content:center;
+	position:relative;
+}
+
+.glass{
+    position:absolute;
+	width:490px;
+	height:240px;
+	background:rgba(196,196,196,0.41);
+}
+
+.play{
+    display:flex;
+	justify-content:center;
+	margin-top:20%;
+
+}
+
+.svg{
+    width:50px;
+	height:50px;
+}
